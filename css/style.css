@@ -534,7 +534,8 @@ textarea {
 .bread-crumb_links:hover {background: #faef03;}
 .product-card_main {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
   padding-top: 50px;
 }
 .product-card_main hr {
@@ -552,7 +553,7 @@ textarea {
   border: solid 2px #eeeeee;
 }
 .product-card_quick-over {
-  margin-left: 46px;
+  flex-basis: 454px;
 }
 .product-card_quick-over .button-orange {margin: 0 auto; margin-top: 20px;}
 .product-card_quick-over_title {
